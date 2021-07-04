@@ -1,0 +1,107 @@
+*{margin:0;padding:0}
+body{font-family:Sans-Serif, Arial !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;}
+body, html{height:100%;}
+img{max-width:100%}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+h1, h2, h3, h4, h5, h6{font-weight:normal;margin-top:10px;margin-bottom:10px}
+p{line-height: 150%;margin-bottom: 2em;}
+.container_full {width: 100%; height: auto;}
+.container {width:960px; margin:0 auto; display:block }
+.fix{overflow:hidden;}
+.aligncenter{display:block;margin:0 auto;}
+.floatleft{float:left}
+.floatright{float:right}
+/**start **/
+
+.well-sec-full-bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 30px 0px;
+    overflow: hidden;
+}
+.wel-sec-left{
+    width:50%;
+    float: left;
+}
+.wel-sec-right{
+    width:50%;
+    float: right;
+}
+
+.wel-sec-left h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+.wel-sec-left h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+.wel-sec-left h2 span{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color:#FFA500;
+}
+.wel-sec-left h3{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.wel-sec-left p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    color:dimgray;
+}
+.wel-sec-left a{
+    text-decoration: none;
+    background: linear-gradient(
+45deg
+, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.dream-full-bg{
+    padding: 60px 0px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-sec-left{
+    width:43%;
+    float: left;
+}
+
+.dream-sec-right{
+    width:50%;
+    float: right;
+}
+
+.dream-sec-right h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+.dream-sec-right h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+.dream-sec-right p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+}
